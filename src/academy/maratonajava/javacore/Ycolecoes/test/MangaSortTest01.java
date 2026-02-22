@@ -1,0 +1,28 @@
+package academy.maratonajava.javacore.Ycolecoes.test;
+
+import academy.maratonajava.javacore.Ycolecoes.dominio.Manga;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class MangaSortTest01 {
+    public static void main(String[] args) {
+        List<Manga> mangas = new ArrayList<>();
+        mangas.add(new Manga(5L, "Hellsing Ultimate", 19.9));
+        mangas.add(new Manga(6L, "Berserk", 29.9));
+        mangas.add(new Manga(7L, "Pokemon", 14.9));
+        mangas.add(new Manga(8L, "Dragon Ball Z", 24.9));
+        mangas.add(new Manga(9L, "Attack on Titan", 22.9));
+
+        Collections.sort(mangas);
+
+        for (Manga manga: mangas){
+            System.out.println(manga);
+        }
+
+        Manga mangaToSearch = new Manga(8L, "Dragon Ball Z", 24.9);
+
+        System.out.println(Collections.binarySearch(mangas, mangaToSearch));
+    }
+}
