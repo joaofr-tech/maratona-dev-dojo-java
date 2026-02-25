@@ -15,3 +15,8 @@ mais usadas sao LocalDate, LocalDateTime e Instant
 ### Porque nao existe string como tipo primitivo em java?
 
 ### O que muda a string no java ser imutável?
+
+###
+set usa comparable comparator, nao se guia pelo equals
+set ao coloca elementos duplicados
+metodos de comparacao: lower, floor, higher, ceiling
