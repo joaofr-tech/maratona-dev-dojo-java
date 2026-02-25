@@ -20,3 +20,6 @@ mais usadas sao LocalDate, LocalDateTime e Instant
 set usa comparable comparator, nao se guia pelo equals
 set ao coloca elementos duplicados
 metodos de comparacao: lower, floor, higher, ceiling
+Set ignora elementos duplicados
+Map chave valor
+Map sobreescre, o que vale é o ultimo elemento da duplicacao
