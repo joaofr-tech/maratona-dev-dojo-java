@@ -23,3 +23,4 @@ metodos de comparacao: lower, floor, higher, ceiling
 Set ignora elementos duplicados
 Map chave valor
 Map sobreescre, o que vale é o ultimo elemento da duplicacao
+NavigableMap ordena automaticamente sem metodos de comparacao, ordena por alfabeto e numero crescente
