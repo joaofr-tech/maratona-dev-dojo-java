@@ -24,3 +24,11 @@ Set ignora elementos duplicados
 Map chave valor
 Map sobreescre, o que vale é o ultimo elemento da duplicacao
 NavigableMap ordena automaticamente sem metodos de comparacao, ordena por alfabeto e numero crescente
+
+instanceof
+
+type erasure -- usando List<? extends Animal> -- posso adicionar qualquer subclasse de Animal
+o que nao poderia fazer com -- List<Animal> -- aqui so poderia adicionar especificamente a classe Animal
+
+usando -- List<? super Cachorro> -- posso adicionar qualquer classe pai de Cachorro
+como por exemplo animal -- mas nao posso adicionar gato
