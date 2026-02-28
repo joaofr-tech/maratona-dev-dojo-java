@@ -11,7 +11,6 @@ public class WildcardTest02 {
         printConsulta(gatos);
         List<Animal> animals = new ArrayList<>();
         printConsultaAnimal(animals);
-        printConsultaAnimal(cahorros);
     }
 
     private static void printConsulta(List<? extends Animal> animals){
